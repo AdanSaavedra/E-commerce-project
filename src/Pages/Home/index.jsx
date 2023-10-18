@@ -21,7 +21,7 @@ function Home() {
             <Card key={item.id} data={item} />
           ))}
         </div>
-        <ProductDetail />
+        <ProductDetail/>
       </Layout>
     </>
   );
