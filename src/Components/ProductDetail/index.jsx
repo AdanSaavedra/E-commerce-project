@@ -22,7 +22,7 @@ const ProductDetail = () => {
         <img
           className="w-full h-full rounded-lg"
           src={
-            context.productToShow.images ? context.productToShow.images[1] : ""
+            context.productToShow.images ? context.productToShow?.images[0] : ""
           }
           alt={context.productToShow.title}
         />
